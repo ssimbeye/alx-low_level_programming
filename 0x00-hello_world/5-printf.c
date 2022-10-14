@@ -2,7 +2,8 @@
 
 /**
  *
- *  * main - print the string
+ *  main - print the string
+ *
  *  Description - using the main function.
  *  this prints "Programming is like building a multiligual puzzle"
  *  Return: 0
