@@ -1,26 +1,16 @@
 #include <stdio.h>
-
 /**
- *  main - print the string in the put function
- *
- * Description: using the main function
- * this program prints "Programming is like building a multilingual puzzle"
- *
+ * main - prints the size of various types 
+ * 
+ * return: Alawys 0
  */
-
 int main(void)
 {
+	printf("Size of char: %i byte(s)\n", Sizeof(char));
+	printf("Size of an int: %i byte(s)\n", Sizeof(int));
+	printf("Size of a long int: %i byte(s)\n", Sizesof(long int));
+	printf("Size of a long long int: %i byte(s)\n", Sizeof(long long int);
+	printf("Size of a float: %i byte(s)\n", Sizeof(float);
+	return (0);
+	}	
 
-         char c;
-	 int i;
-	 long li;
-	 long long lli;		
-         float f;
-
-	 printf("Size of a char: %ld byte(s)\n", sizeof(c));
-	 printf("Size of an int: %ld byte(s)\n", sizeof(i));
-	 printf("Size of a long int: %ld byte(s)\n", sizeof(li));								
-	 printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
-	 printf("Size of a float: %ld byte(s)\n", sizeof(f));
-	 return (0);
-}
